@@ -32,8 +32,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
-🤖 [ITSMEIKY BOT] 🤖
-Created Bye: @ItsmeikyXSec404
+🤖 [ABBAS XD BOT] 🤖
 
 Hi, ${name} 👋
 Exp: ${exp}
@@ -96,14 +95,14 @@ Cara Tambah XP:
 ╠➥ Github: https://github.com/itsmeikybot
 ║
 ╠═〘 Info Bot 〙 ═
-╠➥ Name : ITSMEIKY BOT
+╠➥ Name : ABBAS XD
 ╠➥ Coded using *Nano* on Android \\w Termux
-╠➥ Request? Wa.me/6281281872699
+╠➥ Request? Wa.me/6285716066975
 ╠═════
 ║ Advanced:
 ║  > return m
 ║
-╠═〘 ITSMEIKY BOT 〙═
+╠═〘 ABBAS XD BOT 〙═
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)
   }
